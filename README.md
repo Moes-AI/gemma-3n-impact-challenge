@@ -1,6 +1,6 @@
 # Tree of Trust: Secure, On-Device AI with Gemma 3N
 
-**Team Member:** [Your Name]
+**Team Member:** Greg Mousseau
 
 ## Summary
 
@@ -19,12 +19,12 @@ Tree of Trust is a React Native mobile application that provides a sanctuary for
 * **User-Controlled Data:** Users have full and explicit control over their conversation history.
 
 
-## How We Used Gemma 3N
+## How I Used Gemma 3N
 
-Gemma 3N is the heart of Tree of Trust. Its remarkable ability to run efficiently on-device is the core technology that makes this project possible. We specifically leveraged:
+Gemma 3N is the heart of Tree of Trust. Its remarkable ability to run efficiently on-device is the core technology that makes this project possible. I specifically leveraged:
 
-* **Local Inference:** We built a system within the React Native app to serve the Gemma 3N model locally, ensuring all AI processing happens completely offline.
-* **Instruction-Tuned Capabilities:** We utilized the instruction-tuned variant of Gemma to create a responsive and helpful conversational agent without requiring any cloud-based API calls.
+* **Local Inference:** I built a system within the React Native app to serve the Gemma 3N model locally, ensuring all AI processing happens completely offline.
+* **Instruction-Tuned Capabilities:** I utilized the instruction-tuned variant of Gemma to create a responsive and helpful conversational agent without requiring any cloud-based API calls.
 * **Efficiency and Performance:** Gemma's ideal balance of a small footprint and powerful performance was the critical factor that made a high-quality, on-device AI experience on a mobile device feasible.
 
 ## Demo Video
