@@ -1,0 +1,23 @@
+# .easignore
+
+# Ignore node_modules
+node_modules/
+
+# Ignore local build artifacts
+android/app/
+android/.gradle/
+ios/build/
+
+# Ignore git
+.git/
+
+# Ignore local secrets (if any)
+.env
+
+# Ignore IDE/editor specific files
+.idea/
+*.vs/
+.vscode/
+
+# Ignore expo-updates cache
+.expo-updates/

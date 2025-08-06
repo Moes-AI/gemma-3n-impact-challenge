@@ -1,7 +1,17 @@
 {
   "expo": {
     "name": "rn",
-    "slug": "rn",
-    "version": "1.0.0"
+    "slug": "gem1",
+    "version": "1.0.0",
+    "assetBundlePatterns": [],
+    "extra": {
+      "eas": {
+        "projectId": "3d5111a4-4f03-4b13-9fcb-ed9275b4ede1"
+      }
+    },
+    "owner": "gregmousseau",
+    "android": {
+      "package": "com.gregmousseau.gem1"
+    }
   }
 }

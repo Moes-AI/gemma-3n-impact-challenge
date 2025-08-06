@@ -122,8 +122,12 @@ android {
             useLegacyPackaging (findProperty('expo.useLegacyPackaging')?.toBoolean() ?: false)
         }
     }
+    aaptOptions {
+        noCompress 'aapt_rules.txt', 'mediapipe', 'tflite', 'task'
+    }
     androidResources {
         ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~'
+        noCompress 'aapt_rules.txt', 'mediapipe', 'tflite', 'task'
     }
 }
 
